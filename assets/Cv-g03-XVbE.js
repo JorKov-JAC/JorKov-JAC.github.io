@@ -1,0 +1,1 @@
+import{c as e,b as s,t as c}from"./index-R_-2yF3z.js";const r="_style_pmcyy_1";const a=c("<div><iframe src=/cvFrame.html>");function m(){return(()=>{const t=a();return e(()=>s(t,r)),t})()}export{m as default};
