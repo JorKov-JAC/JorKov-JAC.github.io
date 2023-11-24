@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden; padding: 0; margin: 0; height: fit-content; display: flex">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="game.js"></script>
+</head>
+<body onload="Engine.main()" style="padding: 0; margin: 0; width: 100vw; display: flex">
+	<noscript>ERROR JavaScript failed</noscript>
+	<div style="position: relative; display: flex">
+		<canvas id="game" tabindex="0">ERROR JavaScript canvas failed</canvas>
+		<canvas id="game2d" style="position: absolute; left: 0; top: 0; pointer-events: none"></canvas>
+	</div>
+	<script>
+		document.body.style.height = Math.round(document.body.scrollWidth * 9/16)+"px";
+		["game", "game2d"].forEach(e => { let c = document.getElementById(e); c.width = document.body.scrollWidth; c.height = document.body.scrollHeight })
+	</script>
+</body>
+</html>
