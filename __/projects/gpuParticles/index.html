@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden; padding: 0; margin: 0; height: fit-content; display: flex">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GPU Particles</title>
+	<script src="main.js" type="module" defer></script>
+</head>
+<body style="padding: 0; margin: 0; display: flex">
+	<canvas id="fParticles" style="width: 100vw; aspect-ratio: 1"></canvas>
+	<script>
+		const c = document.getElementById("fParticles")
+		c.width = document.body.scrollWidth
+		c.height = document.body.scrollHeight
+	</script>
+</body>
+</html>
