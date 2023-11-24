@@ -1,1 +1,1 @@
-<script type="module">var l=window.location,s=sessionStorage;s.getItem("u")||s.setItem("u",l);l.replace(import.meta.url.replace(/\/[^/]*$/,""))</script>
+<script>var l=window.location,s=sessionStorage;s.getItem("u")||s.setItem("u",l);l.replace(l.origin+l.pathname.replace(/\/[^/]*\/?$/,""))</script>
