@@ -1,0 +1,7 @@
+import{l as p,_ as c,c as r,R as o,a as i,b as _,i as a,A as h,t as n}from"./index-fL1WzXrV.js";import P from"./Missing-vTuBd4RF.js";const d=n("<h1>Projects"),g=n("<ul>"),$=n("<li>"),f=n("<h1>");function j(){const m=[{name:"Tribes Clone",path:"tribes-clone",component:p(()=>c(()=>import("./TribesClone-IxDHLVjg.js"),__vite__mapDeps([0,1,2,3,4]),import.meta.url))},{name:"GPU Particles",path:"gpu-particles",component:p(()=>c(()=>import("./GpuParticles-a6Keepzw.js"),__vite__mapDeps([5,3,1,2]),import.meta.url))}],l=()=>[d(),(()=>{const t=g();return a(t,()=>m.map(e=>(()=>{const s=$();return a(s,r(h,{get href(){return e.path},get children(){return e.name}})),s})())),t})()],u=t=>[(()=>{const e=f();return a(e,()=>t.name),e})(),i(()=>t.component({}))];return r(_,{get children(){return[r(o,{path:"/",component:l}),i(()=>m.map(t=>r(o,{get path(){return t.path},component:()=>u(t)}))),r(o,{path:"/*",component:P})]}})}export{j as default};
+function __vite__mapDeps(indexes) {
+  if (!__vite__mapDeps.viteFileDeps) {
+    __vite__mapDeps.viteFileDeps = ["./TribesClone-IxDHLVjg.js","./index-fL1WzXrV.js","./index-H7tmAth2.css","./MaxSizeIframe-pwBW8rlX.js","./TribesClone-O4G0xJcJ.css","./GpuParticles-a6Keepzw.js"]
+  }
+  return indexes.map((i) => __vite__mapDeps.viteFileDeps[i])
+}

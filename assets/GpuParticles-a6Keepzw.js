@@ -1,0 +1,1 @@
+import{M as e}from"./MaxSizeIframe-pwBW8rlX.js";import{c as t}from"./index-fL1WzXrV.js";function o(){return t(e,{title:"Particles Demo",src:"/__/projects/gpuParticles/index.html"})}export{o as default};

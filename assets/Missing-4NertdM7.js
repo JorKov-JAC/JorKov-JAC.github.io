@@ -1,1 +1,0 @@
-import{i as l,c as r,A as a,d as o,e as c,t as d}from"./index-9ndE9zub.js";const _="_style_1fjdb_1";const f=d("<div><h1>404</h1><p>Quit snooping around, please stay on <!>!"),p=()=>(()=>{const e=f(),n=e.firstChild,t=n.nextSibling,i=t.firstChild,s=i.nextSibling;return s.nextSibling,l(t,r(a,{href:"/",children:"the trail"}),s),o(()=>c(e,_)),e})(),h=p;export{h as default};
