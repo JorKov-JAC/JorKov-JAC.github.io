@@ -1,0 +1,1 @@
+import{c as e,t}from"./index-QAKvkFfz.js";import{M as r}from"./MaxSizeIframe-pe307G1E.js";const a=t("<p>These are particles running on the GPU using WebGL 1. The colourful pixels in the bottom left represent the actual data being processed.");function i(){return[a(),e(r,{title:"Particles Demo",src:"/__/projects/gpuParticles/index.html"})]}export{i as default};
